@@ -1,0 +1,484 @@
+#container {
+    width: 100%;
+}
+
+
+
+#navigasi .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navigasi .logo img{
+    text-align: center;
+}
+
+#navigasi .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#navigasi .menu a {
+    margin: 20px;
+
+    font-size: 14px;
+    font-family: Roboto;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+#navigasi .menu a:hover {
+    color: coral;
+    text-decoration: underline;
+}
+
+#header {
+    height: 75vh;
+
+    background: url(assets/image/header.jpeg);
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark {
+    height: 75vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+
+    position: absolute;
+}
+
+#header .desc {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 50%;
+}
+
+#header .desc h1 {
+    font-size: 60px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+#header .desc h3 {
+    font-size: 25px;
+    font-family: Roboto;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 15px;
+
+    font-weight: normal;
+}
+
+#header .desc h5 {
+    font-size: 15px;
+    font-family: Arial;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: normal;
+}
+
+#header .desc button {
+    font-size: 13px;
+    font-family: Arial;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #de5144;
+    color: white;
+
+    padding: 10px 30px;
+    margin-top: 10px;
+
+    border-radius: 3px;
+    border: none;
+}
+
+#header .desc button:hover {
+    background-color: white;
+    color: black;
+}
+
+#product .title {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#product .title h2 {
+    font-size: 38px;
+    font-family: Arial;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#product .title h2 span {
+    color: orangered;
+}
+
+.view {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+
+
+    margin: 30px 0px;
+}
+
+.view .box {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    margin: 15px 30px;
+}
+
+.view .box img {
+    width: 100%;
+    height: 35vh;
+    padding: 40px;
+}
+
+.view .box h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-size: 18px;
+    font-family: Roboto;
+}
+
+.view .box h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.view .box button {
+    font-family: Roboto;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #de5144;
+    border-color: #de5144;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    padding: 3px 13px;
+
+    margin-top: 20px;
+}
+
+.view .box:hover {
+    transform: scale(1.03);
+    background-color: whitesmoke;
+}
+
+.view .box button:hover {
+    color: white;
+    background-color: #de5144;
+}
+
+#whatis {
+    background: url(assets/image/bg-for-what-is.jpg);
+    height: 75vh;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 40px 0px;
+}
+
+#whatis .desc{
+    position: relative;
+    padding: 20px;
+}
+
+#whatis .desc h2{
+    font-family: Roboto;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+#whatis .desc h2 span{
+    color: orangered;
+}
+
+#whatis .desc h4{
+    font-family: Roboto;
+    font-weight: normal;
+
+    margin: 15px 0px;
+}
+
+#whatis .desc button{
+    font-family: sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: orangered;
+    color: white;
+    border: none;
+
+    padding: 7px 17px;
+}
+
+#whatis .desc button:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+#whatis .gambar {
+    position: relative;
+}
+
+#whatis .gambar img{
+    width: 100%;
+    height: 50vh;
+}
+.filter1 {
+    height: 75vh;
+    width: 100%;
+    background-color: white;
+    opacity: 0.75;
+    position: absolute;
+}
+
+#hiw .title {
+    font-size: 30px;
+    font-family: Arial;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 40px;
+}
+
+#hiw .title span {
+    color: orangered;
+}
+
+#hiw .wdh-box {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 20px;
+}
+
+#hiw .wdh-box .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+
+    padding: 60px 15px;
+
+    background-color: whitesmoke;
+}
+
+#hiw .wdh-box .box:hover {
+    background-color: lightgray;
+}
+
+#hiw .wdh-box .box img {
+    height: 100px;
+    width: 100px;
+    padding: 18px;
+
+    border-radius: 100px;
+    background-color: gray;
+    margin-bottom: 15px;
+}
+
+#hiw .wdh-box .box h3 {
+    font-size: 25px;
+    font-family: Roboto;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+#hiw .wdh-box .box p {
+    font-size: 14px;
+    text-align: center;
+}
+
+#solution {
+    height: 50vh;
+    background: url(assets/image/bg-for-solution.jpg);
+
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#solution .filter {
+    height: 50vh;
+    width: 100%;
+    background-color: orangered;
+    opacity: 0.8;
+    position: absolute;
+}
+
+#solution .desc {
+    position: relative;
+}
+
+#solution button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#solution h1 {
+    font-size: 50px;
+    font-family: Arial;
+    text-transform: uppercase;
+    color: white;
+    margin: 7px 0px;
+    text-align: center;
+}
+
+#solution h5 {
+    font-size: 15px;
+    font-family: Arial;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    margin: 7px 0px;
+}
+
+#solution button {
+    font-size: 13px;
+    font-family: Arial;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    color: white;
+
+    background: none;
+    border-color: white;
+    margin: 15px 0px;
+}
+
+#solution button:hover {
+    color: #de5144;
+    background-color: white;
+}
+
+
+#blog {
+    margin-top: 30px;
+}
+
+#blog .title {
+    display: flex;
+    justify-content: center;
+}
+
+#blog .title h2 {
+    font-size: 38px;
+    font-family: Arial;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#blog .title h2 span {
+    color: orangered;
+}
+
+#blog .wdh-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#blog .wdh-box .box {
+    margin: 20px;
+}
+
+#blog .wdh-box .box img {
+    width: 100%;
+    height: 225px;
+}
+
+#blog .wdh-box .box .subtitle {
+    margin: 10px 0px;
+}
+
+#blog .wdh-box .box .subtitle h5 {
+    margin-top: 10px;
+    font-family: Roboto;
+    font-weight: normal;
+}
+
+#blog .wdh-box .box a {
+    font-family: sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: orangered;
+    text-decoration: none;
+}
+
+#blog .wdh-box .box a:hover {
+    color: orange;
+}
+
+#copyright {
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+}
+
+#copyright h6 {
+    font-family: Roboto;
+    color: lightgray;
+    font-weight: normal;
+    text-align: center;
+}
